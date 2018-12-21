@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Esther Mejia and Shailee Shah" />
+
+
+<title>💵The Gigantic Gender Pay Gap💵</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+div.sourceCode {
+  overflow-x: visible;
+}
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Final Project Title</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Blogpost</a>
+</li>
+<li>
+  <a href="more_info.html">More info</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">💵The Gigantic Gender Pay Gap💵</h1>
+<h4 class="author"><em>Esther Mejia and Shailee Shah</em></h4>
+<h4 class="date"><em>Last updated on 2018-12-21</em></h4>
+
+</div>
+
+
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#load Packages here</span>
+<span class="kw">library</span>(tidyverse)
+<span class="kw">library</span>(leaflet)
+<span class="kw">library</span>(readr)
+<span class="kw">library</span>(scales)
+<span class="co">#reading the .cvs file </span>
+Census_data &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;acs2015_census_tract_data.csv&quot;</span>)
+Gender_occupation &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;inc_occ_gender.csv&quot;</span>)
+Gender_pay_gap &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;Gender_Pay_Gap.csv&quot;</span>)
+
+<span class="co">#data wrangling for the Census_data</span>
+<span class="co">#we want to the dataset to only include the information that we are going to work with</span>
+<span class="co">#this dataset will be used to show the gender pay gap in Northeastern States in a graph</span>
+Clean_Census_data &lt;-<span class="st"> </span>Census_data <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(State,TotalPop, Men, Women) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(State <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Maine&quot;</span>, <span class="st">&quot;Vermont&quot;</span>, <span class="st">&quot;New Hampshire&quot;</span>, <span class="st">&quot;Massachusetts&quot;</span>, <span class="st">&quot;New York&quot;</span>,<span class="st">&quot;Rhode Island&quot;</span>, <span class="st">&quot;Connecticut&quot;</span>,<span class="st">&quot;Pennsykvania&quot;</span>, <span class="st">&quot;New Jeresy&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(State) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">sum_totalPop =</span> <span class="kw">sum</span>(TotalPop), <span class="dt">sum_men =</span> <span class="kw">sum</span>(Men), <span class="dt">sum_women =</span> <span class="kw">sum</span>(Women))
+<span class="co">#this census dataset is what we are going to join </span>
+Cleaner_Census_data&lt;-<span class="st"> </span>Census_data <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(State, TotalPop, Men, Women) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(State) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">sum_totalPop =</span> <span class="kw">sum</span>(TotalPop), <span class="dt">sum_men =</span> <span class="kw">sum</span>(Men), <span class="dt">sum_women =</span> <span class="kw">sum</span>(Women)) 
+<span class="co">#remove 2 observations since they were not states</span>
+Joining_Census_data &lt;-Cleaner_Census_data[<span class="op">-</span><span class="kw">c</span>(<span class="dv">9</span>,<span class="dv">40</span>), ]
+
+<span class="co">#data wrangling for the Gender_pay_gap to join with joining_Census_data</span>
+Clean_gender_pay_gap &lt;-<span class="st"> </span>Gender_pay_gap <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(State) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">Men_Salary=</span><span class="kw">mean</span>(Men_Salary),<span class="dt">Women_Salary=</span><span class="kw">mean</span>(Women_Salary)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">   </span><span class="kw">mutate</span>(<span class="dt">Total_salary =</span> ((Men_Salary <span class="op">+</span><span class="st"> </span>Women_Salary)<span class="op">/</span><span class="dv">2</span>))
+
+<span class="co">#joining the two datasets </span>
+Census_Gender_pay_gap &lt;-Joining_Census_data <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">left_join</span>(Clean_gender_pay_gap, <span class="dt">by =</span> <span class="st">&quot;State&quot;</span>) 
+
+<span class="co">#Separting the dataset to make the data visualization</span>
+Cleaner_gender_pay_gap&lt;-<span class="st"> </span><span class="kw">rbind</span>(Clean_gender_pay_gap, <span class="kw">data.frame</span>(<span class="dt">State =</span> <span class="st">&quot;Nationally&quot;</span>, <span class="kw">t</span>(<span class="kw">colMeans</span>(Clean_gender_pay_gap[,<span class="op">-</span><span class="dv">1</span>]))))
+
+Nationally &lt;-Cleaner_gender_pay_gap <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">slice</span>(<span class="dv">51</span><span class="op">:</span><span class="dv">51</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">gather</span>(<span class="st">&quot;Men_Salary&quot;</span>, <span class="st">&quot;Women_Salary&quot;</span>, <span class="st">&quot;Total_salary&quot;</span> ,<span class="dt">key =</span> <span class="st">&quot;Gender&quot;</span> , <span class="dt">value =</span> <span class="st">&quot;Salary&quot;</span>)
+
+Nationally<span class="op">$</span>Gender[Nationally<span class="op">$</span>Gender <span class="op">==</span><span class="st"> &quot;Men_Salary&quot;</span>] &lt;-<span class="st"> &quot;Men&quot;</span>
+Nationally<span class="op">$</span>Gender[Nationally<span class="op">$</span>Gender <span class="op">==</span><span class="st"> &quot;Women_Salary&quot;</span>] &lt;-<span class="st"> &quot;Women&quot;</span>
+Nationally<span class="op">$</span>Gender[Nationally<span class="op">$</span>Gender <span class="op">==</span><span class="st"> &quot;Total_salary&quot;</span>] &lt;-<span class="st"> &quot;National Average&quot;</span>
+
+<span class="co">#Changing the format of which the variables show up as in the graph</span>
+type_levels &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;National Average&quot;</span>, <span class="st">&quot;Men&quot;</span>, <span class="st">&quot;Women&quot;</span>)
+Nationally &lt;-<span class="st"> </span>Nationally <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">type =</span> <span class="kw">factor</span>(Gender, <span class="dt">levels =</span> type_levels))</code></pre></div>
+<p><img src="pay%20gap%20image.jpg" width="1000" /><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<p>Women in the United States earn about 80 cents for every dollar earned by men, as illustrated by the graph below. Mind-boggling, right? This gender pay gap refers to the median annual income of all women, compared to median annual income of all men <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. Occupational segregation, motherhood and unconscious biases have fostered these disparities.</p>
+<p>The graph below reveals that women on average earn about 10,000 dollars less than men, which is about 6,000 dollars less than the national average.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#This graph is showing the average salary by gender </span>
+<span class="kw">ggplot</span>(Nationally, <span class="kw">aes</span>(<span class="dt">x =</span> type, <span class="dt">y =</span> Salary, <span class="dt">fill =</span> Gender)) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_text</span>(<span class="kw">aes</span>(<span class="dt">label=</span><span class="kw">dollar</span>(Salary)), <span class="dt">vjust=</span><span class="fl">1.6</span>, <span class="dt">color=</span><span class="st">&quot;white&quot;</span>, <span class="dt">size=</span><span class="fl">3.5</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">labs</span>(<span class="dt">title =</span> <span class="st">&quot;Average Salary Disparity by Gender in the US&quot;</span>, <span class="dt">x =</span> <span class="st">&quot;&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Yearly Salary&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">labels=</span>dollar)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_fill_manual</span>(<span class="dt">values =</span> <span class="kw">c</span>(<span class="st">&quot;National Average&quot;</span> =<span class="st"> &quot;purple&quot;</span>,<span class="st">&quot;Women&quot;</span>=<span class="st"> &quot;pink&quot;</span> ,<span class="st">&quot;Men&quot;</span> =<span class="st"> &quot;blue&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&#39;none&#39;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;white&quot;</span>))</code></pre></div>
+<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<div id="problem-set" class="section level2">
+<h2>Problem Set</h2>
+<p>To what extent and under what conditions does the gender pay gap persist? How can it be ameliorated? While the gender pay gap has improved from the 1960’s when a woman earned 60 cents for every dollar that a man earned, the gender pay gap still persists today <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+</div>
+<div id="description-of-data" class="section level2">
+<h2>Description of Data</h2>
+<p>To explore this issue, we wrangled and visualized two data sets from kaggle titled “U.S. Incomes by Occupation and Gender”, which was retrieved from the Bureau of Labor Statistics, and “US Census Demographic Data, which was retrieved from the American Community Survey (ACS). Additionally, we derived data of average salaries by gender in all 50 states from the American Association of University Women’s website. This data was provided in PDF format, so my partner and I manually transformed this data set into an excel spreadsheet for data wrangling.</p>
+</div>
+<div id="why-is-this-important" class="section level2">
+<h2>Why is this important?</h2>
+<p>If women were paid the same as men, women would gain billions of dollars in earnings every year <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>. This would raise their economic status, fostering greater gender equality. Furthermore, women would be able to improve their living conditions if they become divorced or widowed <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://www.wsj.com/articles/parsing-the-gender-pay-gap-1542917969" class="uri">https://www.wsj.com/articles/parsing-the-gender-pay-gap-1542917969</a><a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>“The Simple Truth about the Gender Pay Gap.” American Association of University Women, www.aauw.org/research/the-simple-truth-about-the-gender-pay-gap/.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>“Why does the gender wage gap still exist?” CNN, www.cnn.com/videos/cnnmoney/2018/04/10/why-does-teh-wage-gap-still-exist.cnn/video/playlists/womens-issues-worldwide/.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>“The Simple Truth about the Gender Pay Gap.” American Association of University Women, www.aauw.org/research/the-simple-truth-about-the-gender-pay-gap/.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>“The gender pay gap.” The Economist, 7 Oct. 2017, www.economist.com/international/2017/10/07/the-gender-pay-gap.<a href="#fnref5">↩</a></p></li>
+</ol>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
