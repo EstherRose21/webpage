@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Esther Mejia and Shailee Shah" />
+
+
+<title>💵The Gigantic Gender Pay Gap💵</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+div.sourceCode {
+  overflow-x: visible;
+}
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Final Project Title</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Blogpost</a>
+</li>
+<li>
+  <a href="more_info.html">More info</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">💵The Gigantic Gender Pay Gap💵</h1>
+<h4 class="author"><em>Esther Mejia and Shailee Shah</em></h4>
+<h4 class="date"><em>Last updated on 2018-12-21</em></h4>
+
+</div>
+
+
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#load Packages here</span>
+<span class="kw">library</span>(tidyverse)
+<span class="kw">library</span>(leaflet)
+<span class="kw">library</span>(readr)
+<span class="kw">library</span>(scales)
+<span class="co">#reading the .cvs file </span>
+Census_data &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;acs2015_census_tract_data.csv&quot;</span>)
+Gender_occupation &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;inc_occ_gender.csv&quot;</span>)
+Gender_pay_gap &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;Gender_Pay_Gap.csv&quot;</span>)
+
+<span class="co">#data wrangling for the Census_data</span>
+<span class="co">#we want to the dataset to only include the information that we are going to work with</span>
+<span class="co">#this dataset will be used to show the gender pay gap in Northeastern States in a graph</span>
+Clean_Census_data &lt;-<span class="st"> </span>Census_data <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(State,TotalPop, Men, Women) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(State <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Maine&quot;</span>, <span class="st">&quot;Vermont&quot;</span>, <span class="st">&quot;New Hampshire&quot;</span>, <span class="st">&quot;Massachusetts&quot;</span>, <span class="st">&quot;New York&quot;</span>,<span class="st">&quot;Rhode Island&quot;</span>, <span class="st">&quot;Connecticut&quot;</span>,<span class="st">&quot;Pennsykvania&quot;</span>, <span class="st">&quot;New Jeresy&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(State) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">sum_totalPop =</span> <span class="kw">sum</span>(TotalPop), <span class="dt">sum_men =</span> <span class="kw">sum</span>(Men), <span class="dt">sum_women =</span> <span class="kw">sum</span>(Women))
+<span class="co">#this census dataset is what we are going to join </span>
+Cleaner_Census_data&lt;-<span class="st"> </span>Census_data <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(State, TotalPop, Men, Women) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(State) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">sum_totalPop =</span> <span class="kw">sum</span>(TotalPop), <span class="dt">sum_men =</span> <span class="kw">sum</span>(Men), <span class="dt">sum_women =</span> <span class="kw">sum</span>(Women)) 
+<span class="co">#remove 2 observations since they were not states</span>
+Joining_Census_data &lt;-Cleaner_Census_data[<span class="op">-</span><span class="kw">c</span>(<span class="dv">9</span>,<span class="dv">40</span>), ]
+<span class="co">#data wrangling for the Gender_pay_gap to join with joining_Census_data</span>
+Clean_gender_pay_gap &lt;-<span class="st"> </span>Gender_pay_gap <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(State) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">Men_Salary=</span><span class="kw">mean</span>(Men_Salary),<span class="dt">Women_Salary=</span><span class="kw">mean</span>(Women_Salary)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Total_salary =</span> ((Men_Salary <span class="op">+</span><span class="st"> </span>Women_Salary)<span class="op">/</span><span class="dv">2</span>))
+
+Cleaner_gender_pay_gap&lt;-<span class="st"> </span><span class="kw">rbind</span>(Clean_gender_pay_gap, <span class="kw">data.frame</span>(<span class="dt">State =</span> <span class="st">&quot;Nationally&quot;</span>, <span class="kw">t</span>(<span class="kw">colMeans</span>(Clean_gender_pay_gap[,<span class="op">-</span><span class="dv">1</span>]))))
+
+Nationally &lt;-Cleaner_gender_pay_gap <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">slice</span>(<span class="dv">51</span><span class="op">:</span><span class="dv">51</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">gather</span>(<span class="st">&quot;Men_Salary&quot;</span>, <span class="st">&quot;Women_Salary&quot;</span>, <span class="st">&quot;Total_salary&quot;</span> ,<span class="dt">key =</span> <span class="st">&quot;Gender&quot;</span> , <span class="dt">value =</span> <span class="st">&quot;Salary&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">Average_Salary =</span> <span class="st">&quot;60,309&quot;</span>)
+
+Nationally<span class="op">$</span>Gender[Nationally<span class="op">$</span>Gender <span class="op">==</span><span class="st"> &quot;Men_Salary&quot;</span>] &lt;-<span class="st"> &quot;Men&quot;</span>
+Nationally<span class="op">$</span>Gender[Nationally<span class="op">$</span>Gender <span class="op">==</span><span class="st"> &quot;Women_Salary&quot;</span>] &lt;-<span class="st"> &quot;Women&quot;</span>
+Nationally<span class="op">$</span>Gender[Nationally<span class="op">$</span>Gender <span class="op">==</span><span class="st"> &quot;Total_salary&quot;</span>] &lt;-<span class="st"> &quot;Average&quot;</span>
+
+<span class="co">#joining the two datasets </span>
+Census_Gender_pay_gap &lt;-Joining_Census_data <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">left_join</span>(Clean_gender_pay_gap, <span class="dt">by =</span> <span class="st">&quot;State&quot;</span>) 
+
+<span class="co">#Occupation data wrangling</span>
+female_representation_compensation &lt;-<span class="st"> </span>Gender_occupation <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(Occupation <span class="op">==</span><span class="st"> &quot;Registered nurses&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Elementary and middle school teachers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Social workers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;lawyer&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Driver/sales workers and truck drivers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Financial analysts&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Chief executives&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Software developers, applications and systems software&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;General and operations managers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Computer and information systems managers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Physicians and surgeons&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Real estate brokers and sales agents&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Bakers&quot;</span>)<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">female_rep_percentage =</span> F_workers<span class="op">/</span><span class="st"> </span>All_workers <span class="op">*</span><span class="st"> </span><span class="dv">100</span>)<span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">female_yearly_salary =</span> <span class="kw">as.numeric</span>(F_weekly) <span class="op">*</span><span class="st"> </span><span class="dv">52</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">male_yearly_salary =</span> <span class="kw">as.numeric</span>(M_weekly) <span class="op">*</span><span class="st"> </span><span class="dv">52</span>)
+
+<span class="co"># create dummy outlier variable</span>
+female_representation_compensation &lt;-<span class="st"> </span>female_representation_compensation <span class="op">%&gt;%</span>
+<span class="st"> </span><span class="kw">mutate</span>(<span class="dt">outlier =</span> <span class="kw">ifelse</span>(Occupation <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Chief executives&quot;</span>, <span class="st">&quot;Computer and information systems managers&quot;</span>), <span class="st">&quot;Yes&quot;</span>, <span class="st">&quot;No&quot;</span>))
+
+<span class="co">#data wrangling for barplot to show sterotypical job for the females  </span>
+stereotypical_female_jobs &lt;-<span class="st"> </span>female_representation_compensation <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">filter</span>(Occupation <span class="op">==</span><span class="st"> &quot;Registered nurses&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Elementary and middle school teachers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Social workers&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(<span class="op">-</span><span class="kw">c</span>(<span class="st">&quot;All_workers&quot;</span>,<span class="st">&quot;All_weekly&quot;</span>,<span class="st">&quot;M_workers&quot;</span>,<span class="st">&quot;M_weekly&quot;</span>,<span class="st">&quot;F_workers&quot;</span>,<span class="st">&quot;F_weekly&quot;</span>,<span class="st">&quot;female_rep_percentage&quot;</span>,<span class="st">&quot;outlier&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">gather</span>(<span class="st">&quot;male_yearly_salary&quot;</span>, <span class="st">&quot;female_yearly_salary&quot;</span>,<span class="dt">key =</span> <span class="st">&quot;Yearly_salary&quot;</span> , <span class="dt">value =</span> <span class="st">&quot;Salary&quot;</span>)
+
+<span class="co">#data wrangling for barplot to show sterotypical job for the males</span>
+stereotypical_male_jobs &lt;-<span class="st"> </span>female_representation_compensation <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">filter</span>(Occupation <span class="op">==</span><span class="st"> &quot;General and operations managers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Driver/sales workers and truck drivers&quot;</span> <span class="op">|</span><span class="st"> </span>Occupation <span class="op">==</span><span class="st"> &quot;Physicians and surgeons&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(<span class="op">-</span><span class="kw">c</span>(<span class="st">&quot;All_workers&quot;</span>,<span class="st">&quot;All_weekly&quot;</span>,<span class="st">&quot;M_workers&quot;</span>,<span class="st">&quot;M_weekly&quot;</span>,<span class="st">&quot;F_workers&quot;</span>,<span class="st">&quot;F_weekly&quot;</span>,<span class="st">&quot;female_rep_percentage&quot;</span>,<span class="st">&quot;outlier&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">gather</span>(<span class="st">&quot;male_yearly_salary&quot;</span>, <span class="st">&quot;female_yearly_salary&quot;</span>,<span class="dt">key =</span> <span class="st">&quot;Yearly_salary&quot;</span> , <span class="dt">value =</span> <span class="st">&quot;Salary&quot;</span>)</code></pre></div>
+<div id="gender-pay-gap-causes" class="section level1">
+<h1>Gender Pay Gap Causes</h1>
+<div id="unconscious-bias" class="section level2">
+<h2>Unconscious Bias</h2>
+<p>Although the Equal Pay Act of 1963 prohibits salary discrimination based on gender, unconscious bias ensures that women earn less than men within the same exact occupations <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Without explicit cognitive acknowledgement, our socialized unconscious bias favors male professionals, increasing their promotion rate as decided by their managers.</p>
+<p>Even when a woman and a man have the same skills and amount of experience, the man will attain the higher salary. This unconscious bias unfolds in an experiment in which the participants were asked how much the candidates represented on the resume they reviewed should receive <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. All the resumes were the same, except one set contained a female name, while the other set contained a male name. Participants consistently ascribed higher salaries to the male candidates.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co">#data visualization </span>
+<span class="co">#scatterplot code</span>
+<span class="kw">ggplot</span>(stereotypical_female_jobs, <span class="kw">aes</span>(<span class="dt">x =</span> Occupation, <span class="dt">y=</span>Salary, <span class="dt">fill=</span> Yearly_salary))<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;white&quot;</span>)) <span class="op">+</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">scale_fill_manual</span>(<span class="dt">values =</span> <span class="kw">c</span>(<span class="st">&quot;male_yearly_salary&quot;</span>=<span class="st"> &quot;blue&quot;</span> ,<span class="st">&quot;female_yearly_salary&quot;</span> =<span class="st"> &quot;pink&quot;</span>),<span class="dt">name =</span> <span class="st">&quot;Gender&quot;</span>, <span class="dt">labels =</span> <span class="kw">c</span>(<span class="st">&quot;Women&quot;</span>, <span class="st">&quot;Men&quot;</span>))<span class="op">+</span>
+<span class="st">  </span><span class="kw">labs</span>(<span class="dt">title =</span> <span class="st">&quot;Salaries among Stereotypically Female Occupations&quot;</span>,<span class="dt">x =</span> <span class="st">&quot;&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Yearly Salary&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">labels=</span>dollar)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_x_discrete</span>(<span class="dt">breaks=</span><span class="kw">c</span>(<span class="st">&quot;Elementary and middle school teachers&quot;</span>,<span class="st">&quot;Registered nurses&quot;</span>,<span class="st">&quot;Social workers&quot;</span>),
+  <span class="dt">labels=</span><span class="kw">c</span>(<span class="st">&quot;Primary School Teachers&quot;</span>, <span class="st">&quot;Registered Nurses&quot;</span>, <span class="st">&quot;Social Workers&quot;</span>))</code></pre></div>
+<p><img src="more_info_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>This unconscious bias even exists in occupations stereotypically for women, in which the majority of the workers are women. As demonstrated by the graph above, women earn less money than men across all represented professions sterotypically for women <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>. These occupations are characterized in this way due to their inherent caring and nurturing nature. As demonstrated by the graph above, women earn less money than men across all represented professions stereotypically for women. This is surprising because all the women represented in these industries can advocate for higher wages for the betterment of their majority. However, managers exercise unconscious bias when distributing salaries by allocating slightly higher salaries to men for the same work as the women <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>. Unfortunately, we are unaware of unconscious biases that instinctively determine our perceptions and choices.</p>
+</div>
+<div id="motherhood-penalty" class="section level2">
+<h2>Motherhood Penalty</h2>
+<p>This graph below reveals that occupations which are highly represented by women are correlated with lower salaries. The following randomly selected occupations are represented in the graph: elementary and middle school teachers, registered nurses, lawyers, truck drivers, financial analysts, software developers, general managers, computer managers, physicians and surgeons, real estate brokers and bakers. The outlier occupations have been highlighted to demonstrate that there are observations that deviate from the general pattern.</p>
+<p>In general, women and men are segregated by occupation, with women outnumbering men in professions with lower salaries and fewer promotions <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>. This can be attributed to the motherhood penalty, in which women make choices that benefit their children, but not their careers <a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>. Data from Britain suggests that 44-75 percent of mothers switch to a less demanding job and consequently a much lower pay in order to focus their time and energy on taking care of their children <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a>. As a result, women sacrifice their careers and potential for higher salaries in order to raise their children. Although fathers are engaging in more childcare than father from previous generations, women are significantly taking on the second shift- the additional responsibility of domestic chores along with work in the professional sector <a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a>.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">faves &lt;-<span class="st"> </span><span class="kw">subset</span> (female_representation_compensation, Occupation <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Chief executives&quot;</span>, <span class="st">&quot;Driver/sales workers and truck drivers&quot;</span>, <span class="st">&quot;Bakers&quot;</span>))
+<span class="kw">ggplot</span>(<span class="dt">data =</span> female_representation_compensation,
+       <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> female_rep_percentage , <span class="dt">y =</span> <span class="kw">as.numeric</span>(female_yearly_salary))) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_point</span>()<span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method=</span><span class="st">&#39;lm&#39;</span>,<span class="dt">formula=</span>y<span class="op">~</span>x) <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">data =</span> faves, <span class="dt">color =</span> <span class="st">&quot;red&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">geom_text</span>(<span class="kw">aes</span>(<span class="dt">label =</span> <span class="kw">ifelse</span>(Occupation <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Chief executives&quot;</span>,    <span class="st">&quot;Driver/sales workers and truck drivers&quot;</span>, <span class="st">&quot;Bakers&quot;</span>), <span class="kw">as.character</span>(Occupation), <span class="st">&quot; &quot;</span>)), <span class="dt">hjust =</span> <span class="dv">0</span>, <span class="dt">vjust =</span> <span class="dv">0</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">labs</span>(<span class="dt">title =</span> <span class="st">&quot;Variation between Salary and Female Representation by Occupation&quot;</span>,<span class="dt">x =</span> <span class="st">&quot;Female Representation by Occupation  (%)&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Female Yearly Salary&quot;</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">labels=</span>dollar)<span class="op">+</span>
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;white&quot;</span>)) </code></pre></div>
+<p><img src="more_info_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+</div>
+<div id="solution" class="section level1">
+<h1>Solution</h1>
+<div id="bridging-the-gender-pay-gap-through-advocates-within-the-legal-system" class="section level2">
+<h2>Bridging the Gender Pay Gap through Advocates within the Legal System</h2>
+<p>This graph reveals a negative correlation between the total population of women and the earning ratio of an average woman’s salary to an average man’s salary in Northeastern U.S. States to suggest that women in large numbers do not advocate for themselves to receive higher pays. There are many possible solutions to combat the gender pay gap, but mobilizing the masses will not close the gender pay gap. For example, during the national women’s marches in the beginning of January of 2017 and 2018, women zealously came together to advocate for their equity; however, there were not any tangible consequences that improved the plight of women. One march participant even stated, “So maybe there’s not an official change in government, but I do think that women feeling empowered is a really important part of our march of equality” <a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a>.</p>
+<p>According to the American Association of University Women, closing the gender pay gap will take action from individuals and policy makers. Instead of social movements for the masses, the gender pay gap should be reformed by individual advocates within the legal system. For example, in 1998, the equal pay activist Lily Ledbetter filed a discrimination lawsuit because the other male managers in her department were making twice as much as her. Her efforts resulted in the Lily Ledbetter Fair Pay Act of 2009, the first bill that President Obama signed into law. According to this law, a citizen could present an equal pay lawsuit from the date that the employer delivers the initial discriminatory wage, not at the date of the most recent pay check <a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a>. This allowed for more gender pay gap cases within the legal system to actually begin to close this disparity through political forces.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">Population_ratio_graph &lt;-<span class="st"> </span>Census_Gender_pay_gap <span class="op">%&gt;%</span>
+<span class="st"> </span><span class="kw">filter</span>(State <span class="op">==</span><span class="st"> &quot;Maine&quot;</span> <span class="op">|</span><span class="st"> </span>State <span class="op">==</span><span class="st"> &quot;Vermont&quot;</span><span class="op">|</span><span class="st"> </span>State <span class="op">==</span><span class="st"> &quot;Massachusetts&quot;</span> <span class="op">|</span><span class="st"> </span>State <span class="op">==</span><span class="st"> &quot;Rhode Island&quot;</span> <span class="op">|</span><span class="st"> </span>State <span class="op">==</span><span class="st"> &quot;Connecticut&quot;</span> <span class="op">|</span><span class="st"> </span>State <span class="op">==</span><span class="st"> &quot;Pennsylvania&quot;</span> <span class="op">|</span><span class="st"> </span>State <span class="op">==</span><span class="st"> &quot;New Jersey&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st"> </span><span class="kw">mutate</span>(<span class="dt">ratio_women_salary =</span> Women_Salary<span class="op">/</span><span class="st"> </span>Men_Salary)
+
+<span class="kw">ggplot</span>(<span class="dt">data =</span> Population_ratio_graph,
+      <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> sum_women, <span class="dt">y =</span> ratio_women_salary)) <span class="op">+</span>
+<span class="st"> </span><span class="kw">geom_point</span>(<span class="dt">color =</span> <span class="st">&quot;dark green&quot;</span>, <span class="dt">size =</span> <span class="dv">2</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">labs</span>(<span class="dt">title =</span> <span class="st">&quot;Relationship between Women&#39;s Population and Gender Pay Gap  &quot;</span>,<span class="dt">x =</span> <span class="st">&quot;Total Population of Women&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;Avg. Earnings Ratio (Avg. Women&#39;s Salary/ Avg. Men&#39;s Salary&quot;</span>) <span class="op">+</span>
+<span class="st"> </span><span class="co">#geom_smooth(method=&#39;lm&#39;,formula=y~x) +</span>
+<span class="st"> </span><span class="kw">scale_x_continuous</span>(<span class="dt">labels =</span> scales <span class="op">::</span><span class="st"> </span>comma) <span class="op">+</span>
+<span class="st"> </span><span class="kw">scale_y_continuous</span>(<span class="dt">name =</span> <span class="st">&quot;Average Earnings Ratio&quot;</span>, <span class="dt">labels =</span> scales<span class="op">::</span><span class="st"> </span>percent) <span class="op">+</span>
+<span class="st"> </span><span class="kw">geom_text</span>(<span class="kw">aes</span>(<span class="dt">label =</span> <span class="kw">ifelse</span>(sum_women <span class="op">&lt;</span><span class="st"> </span><span class="dv">6000000</span>, <span class="kw">as.character</span>(State), <span class="st">&quot;&quot;</span>), <span class="dt">hjust =</span> <span class="dv">0</span>, <span class="dt">vjust =</span> <span class="op">-</span><span class="fl">0.5</span>))<span class="op">+</span>
+<span class="st"> </span><span class="kw">geom_text</span>(<span class="kw">aes</span>(<span class="dt">label =</span> <span class="kw">ifelse</span>(sum_women <span class="op">&gt;</span><span class="st"> </span><span class="dv">6000000</span>, <span class="kw">as.character</span>(State), <span class="st">&quot;&quot;</span>), <span class="dt">hjust =</span> <span class="dv">1</span>, <span class="dt">vjust =</span> <span class="op">-</span><span class="fl">0.5</span>))<span class="op">+</span>
+<span class="st"> </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;white&quot;</span>, <span class="dt">color =</span> <span class="st">&quot;grey50&quot;</span>))</code></pre></div>
+<p><img src="more_info_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>“Why does the gender wage gap still exist?” CNN, www.cnn.com/videos/cnnmoney/2018/04/10/why-does-teh-wage-gap-still-exist.cnn/video/playlists/womens-issues-worldwide/.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Elsesser, Kim. “Unequal Pay, Unconscious Bias, And What To Do About It.” Forbes, 10 Apr. 2018.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>“The gender pay gap.” The Economist, 7 Oct. 2017, www.economist.com/international/2017/10/07/the-gender-pay-gap.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>“Why does the gender wage gap still exist?” CNN, www.cnn.com/videos/cnnmoney/2018/04/10/why-does-teh-wage-gap-still-exist.cnn/video/playlists/womens-issues-worldwide/.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>“The gender pay gap.” The Economist, 7 Oct. 2017, www.economist.com/international/2017/10/07/the-gender-pay-gap.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>“Why does the gender wage gap still exist?” CNN, www.cnn.com/videos/cnnmoney/2018/04/10/why-does-teh-wage-gap-still-exist.cnn/video/playlists/womens-issues-worldwide/.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>“The gender pay gap.” The Economist, 7 Oct. 2017, www.economist.com/international/2017/10/07/the-gender-pay-gap.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>Wong, Kristin. “There’s a Stress Gap Between Men and Women. Here’s Why It’s Important.” The New York Times, www.nytimes.com/2018/11/14/smarter-living/stress-gap-women-men.html?fallback=0&amp;recId=1Dy9Za86kEczXml2L8ha45st9mi&amp;locked=0&amp;geoContinent=NA&amp;geoRegion=MA&amp;recAlloc=contextual-bandit-home-geo&amp;geoCountry=US&amp;blockId=home-living-vi&amp;imp_id=398125922&amp;action=click&amp;module=Smarter%20Living&amp;pgtype=Homepage.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>Wright, Katie. “Women’s March: What’s changed one year on?” BBC News, 21 Jan. 2018, www.bbc.com/news/uk-42767434.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>“LEDBETTER v. GOODYEAR TIRE &amp; RUBBER CO. (No. 05-1074) 421 F. 3d 1169, affirmed.” Cornell University Law School, www.law.cornell.edu/supct/html/05-1074.ZS.html.<a href="#fnref10">↩</a></p></li>
+</ol>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

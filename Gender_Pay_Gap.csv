@@ -1,0 +1,436 @@
+﻿State,Women_Salary,Men_Salary
+Washington,55945,81723
+Washington,44051,56173
+Washington,42701,59483
+Washington,36179,47205
+Washington,41030,50314
+Washington,43069,55827
+Washington,62242,81409
+Washington,50344,65186
+Washington,52292,62054
+Washington,41973,52410
+Oregon,50053,60878
+Oregon,36484,43895
+Oregon,43512,51878
+Oregon,37151,46767
+Oregon,40787,51059
+Califorina ,40925,50060
+Califorina ,54357,62496
+Califorina ,43355,52190
+Califorina ,52867,65220
+Califorina ,50348,57072
+Califorina ,41920,46392
+Califorina ,50257,60022
+Califorina ,37402,47363
+Califorina ,42612,51195
+Califorina ,41837,50570
+Califorina ,57999,72216
+Califorina ,80104,89462
+Califorina ,60888,62472
+Califorina ,61866,71620
+Califorina ,60359,79550
+Califorina ,31447,38709
+Califorina ,66264,97570
+Califorina ,80212,112392
+Califorina ,50424,61734
+Califorina ,44259,49515
+Califorina ,28649,35981
+Califorina ,42154,49283
+Califorina ,42573,51725
+Califorina ,46253,52241
+Califorina ,48484,60778
+Califorina ,47076,52001
+Califorina ,50696,58069
+Califorina ,53227,56308
+Califorina ,36421,36323
+Califorina ,52082,61944
+Califorina ,40368,47111
+Califorina ,40735,42124
+Califorina ,70536,100034
+Califorina ,32222,35154
+Califorina ,35508,40583
+Califorina ,36659,44420
+Califorina ,50045,47756
+Califorina ,42307,46226
+Califorina ,49546,60710
+Califorina ,28663,31488
+Califorina ,35190,41101
+Califorina ,47084,60897
+Califorina ,40471,40514
+Califorina ,32396,35224
+Califorina ,60652,83129
+Califorina ,35709,36118
+Califorina ,47038,50837
+Califorina ,52494,70988
+Califorina ,50980,61096
+Califorina ,43273,55787
+Califorina ,33620,36628
+Califorina ,59689,72188
+Califorina ,48117,55839
+Alaska,47472,57943
+Nevada,31630,53590
+Nevada,37593,48247
+Nevada,45182,53972
+Nevada,37572,47003
+Idaho,35634,48433
+Idaho,33332,44408
+Utah,37479,53280
+Utah,38744,56753
+Utah,37905,49678
+Utah,35893,52447
+Arizona,35784,43557
+Arizona,37498,46527
+Arizona,32045,38256
+Arizona,37460,45179
+Arizona,46812,60199
+Arizona,48901,60632
+Arizona,31766,30504
+Arizona,42360,53413
+Arizona,41526,48219
+Montana,35964,45616
+Wyoming,40200,51948
+Colorado,48025,55250
+Colorado,50441,61361
+Colorado,37925,47979
+Colorado,42849,60220
+Colorado,41947,50725
+Colorado,40794,59165
+Colorado,42407,52103
+New Mexico,38796,44538
+New Mexico,30975,41537
+New Mexico,37225,43192
+Texas,30862,47295
+Texas,49975,60572
+Texas,53976,80057
+Texas,36256,50416
+Texas,36033,41847
+Texas,44055,51722
+Texas,50191,60175
+Texas,41647,58377
+Texas,35046,39406
+Texas,49082,58521
+Texas,36571,50897
+Texas,42476,42148
+Texas,32205,44260
+Texas,41846,57985
+Texas,30193,36826
+Texas,32322,39302
+Texas,38779,47194
+Texas,34221,40738
+Texas,31579,44107
+Texas,36274,40221
+Texas,47554,53795
+Texas,42751,68612
+Texas,31567,41256
+Texas,49042,60651
+Texas,45304,56963
+Texas,51395,67218
+Texas,34709,48610
+Texas,31918,39903
+Texas,29834,63910
+Texas,36520,39339
+Texas,42816,52202
+Texas,48761,52021
+Texas,28322,32624
+Texas,27614,36308
+Texas,35850,39953
+Texas,38975,53431
+Oklahoma,37458,50121
+Oklahoma,30963,41437
+Oklahoma,35378,46125
+Oklahoma,35595,46463
+Oklahoma,36207,46203
+Kansas,32199,41988
+Kansas,37164,46587
+Kansas,46305,61632
+Kansas,35905,48624
+Hawaii,42183,52477
+Hawaii,41007,50387
+Nebraska,38527,49413
+Nebraska,42596,54928
+Nebraska,43535,45666
+South Dakota,35424,46170
+North Dakota,40964,51563
+Minnesota,41088,50100
+Minnesota,50787,62737
+Minnesota,55004,70955
+Minnesota,48443,56311
+Minnesota,50144,53811
+Minnesota,45773,60147
+Minnesota,36811,58420
+Minnesota,39708,50597
+Iowa,38285,49727
+Iowa,37776,50515
+Iowa,42418,52124
+Iowa,37593,47552
+Missouri,37306,46698
+Missouri,50768,67844
+Missouri,40059,50771
+Missouri,33540,43874
+Missouri,37403,45245
+Missouri,39235,50190
+Missouri,32469,40413
+Missouri,30957,41030
+Arkansas,31609,41033
+Arkansas,36500,47333
+Arkansas,34219,44780
+Arkansas,32215,41319
+Louisiana,40042,55667
+Louisiana,32160,45098
+Louisiana,32243,51189
+Louisiana,31668,40604
+Louisiana,31033,41527
+Louisiana,40220,60326
+Mississippi,32265,43299
+Mississippi,31244,37641
+Mississippi,35381,46016
+Mississippi,32276,44559
+Tennesse,32773,38772
+Tennesse,37840,47591
+Tennesse,35901,45209
+Tennesse,37072,45540
+Tennesse,40668,44299
+Tennesse,35275,45711
+Tennesse,37294,49297
+Tennesse,40294,51365
+Tennesse,33316,37276
+Alabama,35876,48207
+Alabama,32105,46249
+Alabama,33453,46546
+Alabama,33589,42445
+Alabama,36348,51207
+Alabama,42863,57059
+Alabama,31205,40486
+Kentucky,31469,41058
+Kentucky,34677,46582
+Kentucky,40225,48985
+Kentucky,41818,53334
+Kentucky,30610,38727
+Kentucky,38040,45382
+Illnois,42103,53083
+Illnois,40599,50065
+Illnois,42533,54289
+Illnois,35155,39534
+Illnois,55416,66968
+Illnois,57289,77363
+Illnois,53170,61987
+Illnois,45441,51332
+Illnois,52380,63037
+Illnois,46892,60642
+Illnois,43447,57461
+Illnois,37313,48435
+Illnois,40367,51319
+Illnois,49680,70215
+Illnois,35033,47629
+Illnois,37471,54192
+Illnois,34775,46274
+Illnois,42105,56986
+Wisconsin,42383,56238
+Wisconsin,45840,55285
+Wisconsin,37076,46875
+Wisconsin,37365,41984
+Wisconsin,46287,58522
+Wisconsin,40066,41425
+Wisconsin,38369,49028
+Wisconsin,40454,51270
+Michigan,33281,43419
+Michigan,36696,48620
+Michigan,40173,50303
+Michigan,36875,48611
+Michigan,34735,46212
+Michigan,37382,50196
+Michigan,38912,50008
+Michigan,47387,65911
+Michigan,42268,52833
+Michigan,41996,58755
+Michigan,52974,75314
+Michigan,44380,52603
+Michigan,33461,41043
+Michigan,41601,51512
+Indiana,38709,57868
+Indiana,34244,49350
+Indiana,35571,47292
+Indiana,37831,50714
+Indiana,46944,62917
+Indiana,36205,49508
+Indiana,35320,41292
+Indiana,35179,50236
+Indiana,38285,50929
+Ohio,43851,54340
+Ohio,41354,51444
+Ohio,38001,41092
+Ohio,36743,48804
+Ohio,38117,50962
+Ohio,33077,46475
+Ohio,35766,49723
+Ohio,33312,50558
+Ohio,36805,46900
+Ohio,39793,51246
+Ohio,36280,47067
+Ohio,47955,60976
+Ohio,33470,46223
+Ohio,44099,61036
+Ohio,44262,53992
+Ohio,43242,56661
+Florida,35252,45696
+Florida,36761,42213
+Florida,37475,43693
+Florida,45684,52277
+Florida,32117,38019
+Florida,35197,41979
+Florida,41013,51453
+Florida,36646,47063
+Florida,32042,37681
+Florida,31866,40313
+Florida,31900,40167
+Florida,40648,48705
+Florida,38504,43472
+Florida,40782,45390
+Florida,37228,42063
+Florida,41103,46413
+Florida,33989,39891
+Florida,41112,48521
+Florida,35847,41572
+Florida,33547,37515
+Florida,41620,44005
+Florida,42043,52377
+Florida,43991,53346
+Florida,31218,32083
+Florida,28595,35561
+Florida,34398,37426
+Florida,36855,44770
+Georgia,35845,46006
+Georgia,32093,38688
+Georgia,36428,50415
+Georgia,39231,41072
+Georgia,41274,49607
+Georgia,53351,75837
+Georgia,42427,53836
+Georgia,35758,41754
+Georgia,35627,42335
+Georgia,36968,48726
+Georgia,44836,57086
+Georgia,32407,40965
+Georgia,40263,44799
+Georgia,35370,40593
+South Carolina,40686,51224
+South Carolina,37722,50452
+South Carolina,33527,42189
+South Carolina,37403,47473
+South Carolina,33799,47183
+South Carolina,29302,36945
+South Carolina,31468,38887
+North Carolina,36751,42145
+North Carolina,42334,56475
+North Carolina,35212,38806
+North Carolina,46891,60072
+North Carolina,36976,41435
+North Carolina,36945,43934
+North Carolina,35880,42052
+North Carolina,37192,42301
+North Carolina,41902,56706
+North Carolina,35318,42464
+North Carolina,34179,40207
+North Carolina,41946,50661
+North Carolina,37025,45537
+Virginia,47930,63160
+Virginia,40921,50975
+Virginia,36445,49073
+Virginia,40785,50735
+Virginia,39040,50252
+Virginia,36098,47206
+Virginia,47505,60691
+Virginia,38838,78755
+Virginia,35194,41993
+Virginia,60775,88289
+Virginia,61485,77909
+West Virginia,35650,47712
+West Virginia,36974,49212
+West Virginia,31467,44640
+Maryland,47144,60728
+Maryland,47439,52374
+Maryland,56317,66586
+Maryland,53017,52110
+Maryland,60062,66147
+Maryland,50989,60172
+Maryland,48458,60774
+Maryland,62112,76567
+Pennsylvania,42048,47488
+Pennsylvania,46060,51262
+Pennsylvania,37348,50295
+Pennsylvania,41748,51801
+Pennsylvania,45454,47023
+Pennsylvania,51040,65192
+Pennsylvania,55205,71274
+Pennsylvania,51107,65793
+Pennsylvania,35943,46056
+Pennsylvania,35726,47498
+Pennsylvania,38370,48144
+Pennsylvania,44537,56675
+Pennsylvania,47439,52481
+Pennsylvania,40004,58729
+Pennsylvania,42055,52043
+Pennsylvania,39822,50464
+Pennsylvania,37434,56238
+Pennsylvania,45229,61122
+New Jersey,50219,60127
+New Jersey,45387,52160
+New Jersey,51056,65473
+New Jersey,52356,75096
+New Jersey,60597,77740
+New Jersey,50947,66747
+New Jersey,67096,87514
+New Jersey,41331,49626
+New Jersey,45923,51901
+New Jersey,41744,50851
+New Jersey,62263,85588
+New Jersey,55252,76187
+Rhode Island,42271,51952
+Rhode Island,50317,57785
+Connecticut,52027,60984
+Connecticut,50551,65029
+Connecticut,52170,61637
+Connecticut,60788,76435
+Connecticut,50866,60420
+Massachusetts,46149,52188
+Massachusetts,51206,68412
+Massachusetts,51768,64046
+Massachusetts,61300,81070
+Massachusetts,63851,79605
+Massachusetts,55559,71410
+Massachusetts,50829,54184
+Massachusetts,60937,70883
+Massachusetts,50947,61742
+New Hamphshire,46138,59378
+New Hamphshire,45913,57162
+Maine,42182,51972
+Maine,37169,42907
+New York,53136,69322
+New York,50614,66789
+New York,66481,86090
+New York,60020,69479
+New York,46022,47477
+New York,49603,41372
+New York,50104,47821
+New York,48286,49687
+New York,47147,52323
+New York,81649,92129
+New York,52854,61266
+New York,80953,100505
+New York,41708,42058
+New York,41200,41788
+New York,30420,33043
+New York,50674,59058
+New York,58420,73014
+New York,52244,64104
+New York,42457,51744
+New York,48728,60608
+New York,40946,47287
+New York,39534,47078
+New York,38980,46491
+New York,51768,52714
+New York,42724,52166
+New York,41084,47985
+New York,42028,53813
+Delware,47052,54657
+Vermont,41976,48924
